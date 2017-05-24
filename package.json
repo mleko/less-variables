@@ -1,0 +1,37 @@
+{
+  "name": "less-variables",
+  "version": "0.0.1",
+  "description": "Read variables from LESS file",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "tsc -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mleko/less-variables.git"
+  },
+  "keywords": [
+    "less",
+    "variable",
+    "variables",
+    "convert",
+    "read"
+  ],
+  "author": "Daniel Król <daniel@krol.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mleko/less-variables/issues"
+  },
+  "homepage": "https://github.com/mleko/less-variables#readme",
+  "devDependencies": {
+    "@types/node": "^7.0.22",
+    "tslint": "^5.3.2",
+    "typescript": "^2.3.3"
+  },
+  "dependencies": {
+    "@types/less": "0.0.32",
+    "less": "^2.7.2"
+  }
+}
